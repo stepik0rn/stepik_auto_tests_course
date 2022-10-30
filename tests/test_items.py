@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-def test_shop_basket(browser):
+def test_add_to_basket_btn(browser):
     browser.get("http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/")
     add_button = (By.CSS_SELECTOR, "button.btn-add-to-baskets")
 
